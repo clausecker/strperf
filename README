@@ -1,0 +1,11 @@
+String Benchmark Code
+=====================
+
+This repository contains code to benchmark libc string functions for
+FreeBSD.  The benchmarks are designed to have the same conventions and
+output formats provided by Go's benchmarks and can be analysed with the
+same tooling (benchstat from devel/go-perf).
+
+This work was created under FreeBSD Foundation sponsorship.
+
+Robert Clausecker <fuz@FreeBSD.org>
