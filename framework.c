@@ -27,7 +27,9 @@
  */
 
 #include <sys/types.h>
+#ifdef __FreeBSD__
 #include <sys/sysctl.h>
+#endif
 #include <sys/utsname.h>
 
 #include <assert.h>
@@ -217,20 +219,24 @@ extern void
 preamble(void)
 {
 	struct utsname uts;
+#ifdef __FreeBSD__
 	size_t modellen;
 	int res, mib[2] = { CTL_HW, HW_MODEL };
 	char model[100];
+#endif
 
 	uname(&uts);
 
 	printf("os: %s\narch: %s\n", uts.sysname, uts.machine);
 
+#ifdef __FreeBSD__
 	modellen = sizeof model - 1;
 	res = sysctl(mib, 2, &model, &modellen, NULL, 0);
 	if (res == 0) {
 		model[modellen] = '\0';
 		printf("cpu: %s\n", model);
 	}
+#endif
 
 	putchar('\n');
 }
