@@ -104,6 +104,7 @@ mkpointers(size_t *nstr, const char *buf, size_t len)
 		i += strlen(buf + i) + 1;
 	}
 
+	*nstr = n;
 	ptrs[n] = NULL;
 	return (ptrs);
 }
