@@ -34,6 +34,8 @@
 
 #include "benchmark.h"
 
+char *strchrnul(const char *, int);
+
 struct testparam
     shortparam = { .avglen = 16,      .buflen = 1 << 17, .maxchar = 127, .xseed = { 123, 456, 789 }},
     midparam =   { .avglen = 64,      .buflen = 1 << 17, .maxchar = 127, .xseed = { 234, 567, 890 }},
