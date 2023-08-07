@@ -1,0 +1,120 @@
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12770	93311.97 ns/op	1339.5923 MB/s
+BenchmarkMid	71380	16746.147 ns/op	7464.4035 MB/s
+BenchmarkLong	457584	2623.9918 ns/op	47637.344 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12837	93051.231 ns/op	1343.346 MB/s
+BenchmarkMid	72277	16541.823 ns/op	7556.6035 MB/s
+BenchmarkLong	457494	2623.2369 ns/op	47651.053 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12812	93226.711 ns/op	1340.8174 MB/s
+BenchmarkMid	72277	16552.901 ns/op	7551.5464 MB/s
+BenchmarkLong	457552	2623.1725 ns/op	47652.223 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12825	93139.378 ns/op	1342.0747 MB/s
+BenchmarkMid	72315	16500.699 ns/op	7575.4367 MB/s
+BenchmarkLong	457544	2622.8993 ns/op	47657.186 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12883	93227.495 ns/op	1340.8062 MB/s
+BenchmarkMid	71428	16676.58 ns/op	7495.5415 MB/s
+BenchmarkLong	457567	2622.8532 ns/op	47658.024 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12627	93348.82 ns/op	1339.0635 MB/s
+BenchmarkMid	71751	16650.387 ns/op	7507.3329 MB/s
+BenchmarkLong	457540	2622.6581 ns/op	47661.568 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12829	92974.048 ns/op	1344.4612 MB/s
+BenchmarkMid	73460	16355.588 ns/op	7642.648 MB/s
+BenchmarkLong	457494	2622.8574 ns/op	47657.946 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12799	93267.151 ns/op	1340.2361 MB/s
+BenchmarkMid	72363	16621.694 ns/op	7520.2925 MB/s
+BenchmarkLong	457509	2622.8342 ns/op	47658.368 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12897	93092.597 ns/op	1342.7491 MB/s
+BenchmarkMid	73320	16271.707 ns/op	7682.046 MB/s
+BenchmarkLong	457507	2622.8111 ns/op	47658.788 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12775	93248.021 ns/op	1340.511 MB/s
+BenchmarkMid	71586	16776.216 ns/op	7451.0247 MB/s
+BenchmarkLong	457398	2623.0513 ns/op	47654.424 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12691	93483.622 ns/op	1337.1326 MB/s
+BenchmarkMid	72034	16559.703 ns/op	7548.4446 MB/s
+BenchmarkLong	457526	2623.0006 ns/op	47655.345 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12852	93223.994 ns/op	1340.8565 MB/s
+BenchmarkMid	71740	16733.324 ns/op	7470.1235 MB/s
+BenchmarkLong	457543	2624.1502 ns/op	47634.468 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12714	93539.26 ns/op	1336.3373 MB/s
+BenchmarkMid	72387	16602.157 ns/op	7529.1421 MB/s
+BenchmarkLong	457490	2623.0828 ns/op	47653.853 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12679	93636.334 ns/op	1334.9519 MB/s
+BenchmarkMid	72738	16507.741 ns/op	7572.2049 MB/s
+BenchmarkLong	457472	2623.6835 ns/op	47642.942 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12837	93130.445 ns/op	1342.2034 MB/s
+BenchmarkMid	71421	16774.853 ns/op	7451.6299 MB/s
+BenchmarkLong	457477	2623.8453 ns/op	47640.003 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12684	93841.54 ns/op	1332.0327 MB/s
+BenchmarkMid	68833	17425.174 ns/op	7173.5297 MB/s
+BenchmarkLong	457420	2623.764 ns/op	47641.481 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12813	93580.218 ns/op	1335.7524 MB/s
+BenchmarkMid	72250	16596.458 ns/op	7531.7276 MB/s
+BenchmarkLong	457473	2623.5335 ns/op	47645.665 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12873	93124.107 ns/op	1342.2948 MB/s
+BenchmarkMid	72900	16495.694 ns/op	7577.7353 MB/s
+BenchmarkLong	457467	2623.0805 ns/op	47653.893 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12766	93119.719 ns/op	1342.358 MB/s
+BenchmarkMid	71336	16759.234 ns/op	7458.5748 MB/s
+BenchmarkLong	457555	2623.0723 ns/op	47654.043 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkShort	12752	93133.842 ns/op	1342.1544 MB/s
+BenchmarkMid	69026	17339.182 ns/op	7209.1059 MB/s
+BenchmarkLong	457485	2622.8695 ns/op	47657.727 MB/s
