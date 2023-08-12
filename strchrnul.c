@@ -37,9 +37,9 @@
 char *strchrnul(const char *, int);
 
 struct testparam
-    shortparam = { .avglen = 16,      .buflen = 1 << 17, .maxchar = 127, .xseed = { 123, 456, 789 }},
-    midparam =   { .avglen = 64,      .buflen = 1 << 17, .maxchar = 127, .xseed = { 234, 567, 890 }},
-    longparam =  { .avglen = 1 << 30, .buflen = 1 << 17, .maxchar = 127, .xseed = { 345, 678, 910 }};
+    shortparam = { .avglen = 16,      .buflen = 1 << 17, .charlen = 1, .maxchar = 127, .xseed = { 123, 456, 789 }},
+    midparam =   { .avglen = 64,      .buflen = 1 << 17, .charlen = 1, .maxchar = 127, .xseed = { 234, 567, 890 }},
+    longparam =  { .avglen = 1 << 30, .buflen = 1 << 17, .charlen = 1, .maxchar = 127, .xseed = { 345, 678, 910 }};
 
 static void
 dostrchrnulbench(const char *buf, size_t n)

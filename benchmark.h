@@ -58,8 +58,9 @@ extern void		  runbenchmark(const char *, void (*)(struct B *, void *), void *);
 /* strtest.c */
 
 struct testparam {
-	double		avglen;		/* average string length */
+	double		avglen;		/* average string length in bytes */
 	size_t		buflen;		/* test buffer length */
+	int		charlen;	/* number of bytes in a char */
 	int		maxchar;	/* maximum character to occur */
 	unsigned short	xseed[3];	/* random seed for erand48() */
 };

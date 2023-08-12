@@ -58,20 +58,20 @@ gentests(const struct testparam *params)
 	p = 1.0 / (params->avglen + 1.0);
 	memcpy(state, params->xseed, sizeof state);
 
-	for (i = 0; i < params->buflen - 1; i++) {
+	for (i = 0; i < params->buflen - 1; i += params->charlen) {
 		double prob;
 
 		prob = erand48(state);
 		if (prob <= p) {
-			buf[i] = '\0';
+			memset(buf + i, '\0', params->charlen);
 			continue;
 		}
 
 		prob = erand48(state);
-		buf[i] = 1 + (int)(prob * (params->maxchar - 1.0));
+		memset(buf + i, 1 + (int)(prob * (params->maxchar - 1.0)), params->charlen);
 	}
 
-	buf[i] = '\0';
+	memset(buf + i, '\0', params->charlen);
 
 	return (buf);
 }
@@ -80,7 +80,8 @@ gentests(const struct testparam *params)
  * For the given test buffer, generate an array of pointers to the
  * beginnings of the strings contained within.  Store the number of
  * strings found in *nstr and return an array of pointers.  The array
- * is terminated by a null pointer after *nstr entries.
+ * is terminated by a pointer just past the array and then a null
+ * pointer after *nstr+1 entries.
  */
 extern char **
 mkpointers(size_t *nstr, const char *buf, size_t len)
@@ -93,7 +94,7 @@ mkpointers(size_t *nstr, const char *buf, size_t len)
 	for (i = n = 0; i < len; n++)
 		i += strlen(buf + i) + 1;
 
-	ptrs = malloc((n + 1) * sizeof *ptrs);
+	ptrs = malloc((n + 2) * sizeof *ptrs);
 	if (ptrs == NULL) {
 		perror("mkpointers");
 		exit(EXIT_FAILURE);
@@ -104,7 +105,9 @@ mkpointers(size_t *nstr, const char *buf, size_t len)
 		i += strlen(buf + i) + 1;
 	}
 
-	*nstr = n;
-	ptrs[n] = NULL;
+	if (nstr != NULL)
+		*nstr = n;
+	ptrs[n] = (char *)buf + len;
+	ptrs[n + 1] = NULL;
 	return (ptrs);
 }
