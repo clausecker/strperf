@@ -68,7 +68,7 @@ memcmpbench(struct B *b, void *payload)
 	}
 
 	memcpy(src, dest, param->buflen);
-	domemcmpbench(dest, src, ptrs);
+	domemcmpbench(src, dest, ptrs);
 
 	resettimer(b);
 	for (i = 0; i < b->n; i++)
