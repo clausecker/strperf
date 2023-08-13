@@ -1,11 +1,14 @@
 CFLAGS+=	-fno-builtin -g -Wall
 
-all: memcmp stpcpy strlen strchrnul
+all: memcmp stpcpy strcspn strlen strchrnul
 
 memcmp: framework.o strtest.o memcmp.o
 	${CC} ${CFLAGS} ${LDFLAGS} -o $@ $> ${LDLIBS}
 
 stpcpy: framework.o strtest.o stpcpy.o
+	${CC} ${CFLAGS} ${LDFLAGS} -o $@ $> ${LDLIBS}
+
+strcspn: framework.o strtest.o strcspn.o
 	${CC} ${CFLAGS} ${LDFLAGS} -o $@ $> ${LDLIBS}
 
 strlen: framework.o strtest.o strlen.o
@@ -15,6 +18,6 @@ strchrnul: framework.o strtest.o strchrnul.o
 	${CC} ${CFLAGS} ${LDFLAGS} -o $@ $> ${LDLIBS}
 
 clean:
-	rm -f *.o memcmp stpcpy strlen strchrnul
+	rm -f *.o memcmp stpcpy strcspn strlen strchrnul
 
 .PHONY: clean
