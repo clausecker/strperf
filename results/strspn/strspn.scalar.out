@@ -1,0 +1,320 @@
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	17754	66414.627 ns/op	1882.1155 MB/s
+BenchmarkMid1	38928	30837.638 ns/op	4053.4881 MB/s
+BenchmarkLong1	56110	21385.67 ns/op	5845.0356 MB/s
+BenchmarkShort5	9222	127620.9 ns/op	979.4634 MB/s
+BenchmarkMid5	21302	56123.676 ns/op	2227.224 MB/s
+BenchmarkLong5	34042	35212.239 ns/op	3549.9021 MB/s
+BenchmarkShort20	7167	165407.86 ns/op	755.70776 MB/s
+BenchmarkMid20	17856	67236.01 ns/op	1859.1228 MB/s
+BenchmarkLong20	34068	35222.013 ns/op	3548.917 MB/s
+BenchmarkShort40	5853	203397.99 ns/op	614.55867 MB/s
+BenchmarkMid40	16130	74531.254 ns/op	1677.1488 MB/s
+BenchmarkLong40	33854	35435.393 ns/op	3527.5466 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18432	64257.392 ns/op	1945.3015 MB/s
+BenchmarkMid1	38923	31471.472 ns/op	3971.8511 MB/s
+BenchmarkLong1	56113	21384.891 ns/op	5845.2484 MB/s
+BenchmarkShort5	9292	127963 ns/op	976.84489 MB/s
+BenchmarkMid5	21394	55897.455 ns/op	2236.2378 MB/s
+BenchmarkLong5	34075	35208.189 ns/op	3550.3104 MB/s
+BenchmarkShort20	7189	164983.73 ns/op	757.65046 MB/s
+BenchmarkMid20	17880	67012.473 ns/op	1865.3244 MB/s
+BenchmarkLong20	34057	35227.124 ns/op	3548.402 MB/s
+BenchmarkShort40	5836	203952.53 ns/op	612.88772 MB/s
+BenchmarkMid40	16143	74196.152 ns/op	1684.7235 MB/s
+BenchmarkLong40	33846	35465.896 ns/op	3524.5127 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	17770	65257.894 ns/op	1915.4771 MB/s
+BenchmarkMid1	38709	30972.234 ns/op	4035.8729 MB/s
+BenchmarkLong1	56109	21389.646 ns/op	5843.9489 MB/s
+BenchmarkShort5	9315	128042.36 ns/op	976.23945 MB/s
+BenchmarkMid5	21398	56094.71 ns/op	2228.3741 MB/s
+BenchmarkLong5	34052	35226.402 ns/op	3548.4749 MB/s
+BenchmarkShort20	7227	165889.17 ns/op	753.51513 MB/s
+BenchmarkMid20	17809	67229.308 ns/op	1859.3081 MB/s
+BenchmarkLong20	34064	35210.072 ns/op	3550.1205 MB/s
+BenchmarkShort40	5863	203353.5 ns/op	614.69314 MB/s
+BenchmarkMid40	16107	74467.112 ns/op	1678.5934 MB/s
+BenchmarkLong40	33855	35439.498 ns/op	3527.138 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18566	64854.199 ns/op	1927.4003 MB/s
+BenchmarkMid1	39278	30588.31 ns/op	4086.5285 MB/s
+BenchmarkLong1	56113	21384.958 ns/op	5845.2302 MB/s
+BenchmarkShort5	9243	127595.22 ns/op	979.66056 MB/s
+BenchmarkMid5	21295	56622.026 ns/op	2207.6214 MB/s
+BenchmarkLong5	34080	35209.578 ns/op	3550.1704 MB/s
+BenchmarkShort20	7221	166411.27 ns/op	751.15106 MB/s
+BenchmarkMid20	17912	66873.421 ns/op	1869.203 MB/s
+BenchmarkLong20	34081	35212.829 ns/op	3549.8425 MB/s
+BenchmarkShort40	5848	203465.28 ns/op	614.35542 MB/s
+BenchmarkMid40	16412	73212.146 ns/op	1707.367 MB/s
+BenchmarkLong40	33852	35450.706 ns/op	3526.0229 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18087	65087.532 ns/op	1920.4907 MB/s
+BenchmarkMid1	39044	30723.415 ns/op	4068.5581 MB/s
+BenchmarkLong1	56113	21384.795 ns/op	5845.2747 MB/s
+BenchmarkShort5	9315	128335.78 ns/op	974.00742 MB/s
+BenchmarkMid5	21609	55529.347 ns/op	2251.0619 MB/s
+BenchmarkLong5	34089	35206.664 ns/op	3550.4642 MB/s
+BenchmarkShort20	7220	163900.91 ns/op	762.65593 MB/s
+BenchmarkMid20	17914	66882.746 ns/op	1868.9424 MB/s
+BenchmarkLong20	34083	35219.083 ns/op	3549.2122 MB/s
+BenchmarkShort40	5793	205935.53 ns/op	606.98609 MB/s
+BenchmarkMid40	16090	74724.322 ns/op	1672.8154 MB/s
+BenchmarkLong40	33853	35445.405 ns/op	3526.5502 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18238	65312.28 ns/op	1913.882 MB/s
+BenchmarkMid1	38604	31167.947 ns/op	4010.5304 MB/s
+BenchmarkLong1	56109	21386.256 ns/op	5844.8752 MB/s
+BenchmarkShort5	9296	127732.32 ns/op	978.60905 MB/s
+BenchmarkMid5	21421	56167.154 ns/op	2225.5 MB/s
+BenchmarkLong5	34087	35204.589 ns/op	3550.6734 MB/s
+BenchmarkShort20	7102	165400.49 ns/op	755.74139 MB/s
+BenchmarkMid20	17798	67375.238 ns/op	1855.281 MB/s
+BenchmarkLong20	34075	35220.825 ns/op	3549.0366 MB/s
+BenchmarkShort40	5834	203224.84 ns/op	615.08228 MB/s
+BenchmarkMid40	16113	74472.145 ns/op	1678.4799 MB/s
+BenchmarkLong40	33866	35432.443 ns/op	3527.8403 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18402	64139.492 ns/op	1948.8773 MB/s
+BenchmarkMid1	39206	30560.778 ns/op	4090.21 MB/s
+BenchmarkLong1	56109	21386.117 ns/op	5844.9134 MB/s
+BenchmarkShort5	9259	128288.55 ns/op	974.36599 MB/s
+BenchmarkMid5	20917	57016.725 ns/op	2192.3392 MB/s
+BenchmarkLong5	34082	35203.35 ns/op	3550.7984 MB/s
+BenchmarkShort20	7204	164440.97 ns/op	760.15119 MB/s
+BenchmarkMid20	17923	66885.898 ns/op	1868.8543 MB/s
+BenchmarkLong20	34083	35210.045 ns/op	3550.1233 MB/s
+BenchmarkShort40	5838	203434.02 ns/op	614.44983 MB/s
+BenchmarkMid40	16308	73576.225 ns/op	1698.9184 MB/s
+BenchmarkLong40	33860	35428.81 ns/op	3528.202 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18394	65616.794 ns/op	1905.0001 MB/s
+BenchmarkMid1	38512	31178.588 ns/op	4009.1617 MB/s
+BenchmarkLong1	56112	21385.712 ns/op	5845.0239 MB/s
+BenchmarkShort5	9358	127912.9 ns/op	977.22747 MB/s
+BenchmarkMid5	21296	56082.378 ns/op	2228.8641 MB/s
+BenchmarkLong5	34078	35206.864 ns/op	3550.444 MB/s
+BenchmarkShort20	7174	165152.67 ns/op	756.87546 MB/s
+BenchmarkMid20	17811	67203.459 ns/op	1860.0233 MB/s
+BenchmarkLong20	34065	35235.816 ns/op	3547.5268 MB/s
+BenchmarkShort40	5856	203285.62 ns/op	614.89838 MB/s
+BenchmarkMid40	16112	74607.137 ns/op	1675.4429 MB/s
+BenchmarkLong40	33800	35479.112 ns/op	3523.1998 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18698	64227.747 ns/op	1946.1993 MB/s
+BenchmarkMid1	39105	30740.709 ns/op	4066.2692 MB/s
+BenchmarkLong1	56073	21385.069 ns/op	5845.1996 MB/s
+BenchmarkShort5	9332	128349.45 ns/op	973.90366 MB/s
+BenchmarkMid5	21496	55940.22 ns/op	2234.5282 MB/s
+BenchmarkLong5	34057	35216.715 ns/op	3549.4509 MB/s
+BenchmarkShort20	7215	165480.29 ns/op	755.37695 MB/s
+BenchmarkMid20	17820	67374.949 ns/op	1855.289 MB/s
+BenchmarkLong20	34052	35249.042 ns/op	3546.1957 MB/s
+BenchmarkShort40	5841	203939.9 ns/op	612.92568 MB/s
+BenchmarkMid40	16134	74471.806 ns/op	1678.4876 MB/s
+BenchmarkLong40	33847	35458.953 ns/op	3525.2028 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18484	64624.293 ns/op	1934.2571 MB/s
+BenchmarkMid1	39135	30702.279 ns/op	4071.359 MB/s
+BenchmarkLong1	56109	21385.976 ns/op	5844.9519 MB/s
+BenchmarkShort5	9145	128026.25 ns/op	976.36225 MB/s
+BenchmarkMid5	21572	55526.233 ns/op	2251.1882 MB/s
+BenchmarkLong5	34060	35232.481 ns/op	3547.8626 MB/s
+BenchmarkShort20	7221	165090.11 ns/op	757.16223 MB/s
+BenchmarkMid20	17887	67009.437 ns/op	1865.4089 MB/s
+BenchmarkLong20	34077	35215.643 ns/op	3549.5589 MB/s
+BenchmarkShort40	5832	203537.16 ns/op	614.13848 MB/s
+BenchmarkMid40	16089	74697.466 ns/op	1673.4169 MB/s
+BenchmarkLong40	33865	35444.683 ns/op	3526.622 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18523	64809.722 ns/op	1928.723 MB/s
+BenchmarkMid1	38964	30846.148 ns/op	4052.3698 MB/s
+BenchmarkLong1	56109	21387.283 ns/op	5844.5947 MB/s
+BenchmarkShort5	9334	128488.44 ns/op	972.85017 MB/s
+BenchmarkMid5	21374	56355.389 ns/op	2218.0665 MB/s
+BenchmarkLong5	34051	35246.08 ns/op	3546.4937 MB/s
+BenchmarkShort20	7155	164991.48 ns/op	757.6149 MB/s
+BenchmarkMid20	17874	67097.239 ns/op	1862.9679 MB/s
+BenchmarkLong20	34026	35246.632 ns/op	3546.4382 MB/s
+BenchmarkShort40	5841	203245.98 ns/op	615.01833 MB/s
+BenchmarkMid40	16102	74228.743 ns/op	1683.9838 MB/s
+BenchmarkLong40	33823	35467.806 ns/op	3524.3229 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18201	64890.47 ns/op	1926.3229 MB/s
+BenchmarkMid1	38954	30799.675 ns/op	4058.4843 MB/s
+BenchmarkLong1	56110	21385.705 ns/op	5845.0259 MB/s
+BenchmarkShort5	9212	127908.95 ns/op	977.25766 MB/s
+BenchmarkMid5	21357	56192.799 ns/op	2224.4843 MB/s
+BenchmarkLong5	34081	35205.83 ns/op	3550.5483 MB/s
+BenchmarkShort20	7266	164639.37 ns/op	759.23517 MB/s
+BenchmarkMid20	17882	67054.386 ns/op	1864.1585 MB/s
+BenchmarkLong20	34098	35196.494 ns/op	3551.4901 MB/s
+BenchmarkShort40	5833	203744.55 ns/op	613.51333 MB/s
+BenchmarkMid40	16177	74143.795 ns/op	1685.9132 MB/s
+BenchmarkLong40	33874	35428.293 ns/op	3528.2536 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18525	64937.417 ns/op	1924.9303 MB/s
+BenchmarkMid1	38634	30850.81 ns/op	4051.7574 MB/s
+BenchmarkLong1	56112	21387.48 ns/op	5844.5408 MB/s
+BenchmarkShort5	9184	128093.67 ns/op	975.84839 MB/s
+BenchmarkMid5	21314	56079.634 ns/op	2228.9732 MB/s
+BenchmarkLong5	34058	35235.445 ns/op	3547.5641 MB/s
+BenchmarkShort20	7142	165646.73 ns/op	754.61797 MB/s
+BenchmarkMid20	17854	67259.295 ns/op	1858.4792 MB/s
+BenchmarkLong20	34069	35205.681 ns/op	3550.5633 MB/s
+BenchmarkShort40	5846	203380.59 ns/op	614.61126 MB/s
+BenchmarkMid40	16143	74399.413 ns/op	1680.1208 MB/s
+BenchmarkLong40	33844	35442.444 ns/op	3526.8449 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18444	64688.643 ns/op	1932.333 MB/s
+BenchmarkMid1	38828	30658.114 ns/op	4077.224 MB/s
+BenchmarkLong1	56110	21385.649 ns/op	5845.0413 MB/s
+BenchmarkShort5	9333	128096.97 ns/op	975.82327 MB/s
+BenchmarkMid5	21241	56533.985 ns/op	2211.0594 MB/s
+BenchmarkLong5	34034	35269.254 ns/op	3544.1634 MB/s
+BenchmarkShort20	7202	165512.24 ns/op	755.23116 MB/s
+BenchmarkMid20	17931	67008.716 ns/op	1865.429 MB/s
+BenchmarkLong20	34089	35232.892 ns/op	3547.8212 MB/s
+BenchmarkShort40	5842	203718.15 ns/op	613.59284 MB/s
+BenchmarkMid40	16382	73343.517 ns/op	1704.3088 MB/s
+BenchmarkLong40	33859	35447.038 ns/op	3526.3877 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	17870	65068.82 ns/op	1921.043 MB/s
+BenchmarkMid1	39036	30720.739 ns/op	4068.9125 MB/s
+BenchmarkLong1	56086	21384.752 ns/op	5845.2863 MB/s
+BenchmarkShort5	9273	127983.84 ns/op	976.68583 MB/s
+BenchmarkMid5	21453	55557.799 ns/op	2249.9092 MB/s
+BenchmarkLong5	34076	35231.2 ns/op	3547.9916 MB/s
+BenchmarkShort20	7224	165175.24 ns/op	756.77203 MB/s
+BenchmarkMid20	17967	66889.127 ns/op	1868.7641 MB/s
+BenchmarkLong20	34054	35226.801 ns/op	3548.4346 MB/s
+BenchmarkShort40	5852	203652.81 ns/op	613.78971 MB/s
+BenchmarkMid40	16102	74570.976 ns/op	1676.2554 MB/s
+BenchmarkLong40	33848	35448.667 ns/op	3526.2257 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18242	64449.47 ns/op	1939.5039 MB/s
+BenchmarkMid1	39024	30881.856 ns/op	4047.6842 MB/s
+BenchmarkLong1	56110	21389.223 ns/op	5844.0645 MB/s
+BenchmarkShort5	9220	127446.15 ns/op	980.80638 MB/s
+BenchmarkMid5	21414	55835.649 ns/op	2238.7131 MB/s
+BenchmarkLong5	34086	35215.904 ns/op	3549.5326 MB/s
+BenchmarkShort20	7222	165075.03 ns/op	757.23142 MB/s
+BenchmarkMid20	17858	67173.102 ns/op	1860.8639 MB/s
+BenchmarkLong20	34068	35224.329 ns/op	3548.6836 MB/s
+BenchmarkShort40	5848	203358.31 ns/op	614.67859 MB/s
+BenchmarkMid40	16074	74518.615 ns/op	1677.4332 MB/s
+BenchmarkLong40	33846	35464.809 ns/op	3524.6207 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18414	64707.503 ns/op	1931.7698 MB/s
+BenchmarkMid1	38983	30804.001 ns/op	4057.9144 MB/s
+BenchmarkLong1	56114	21384.982 ns/op	5845.2235 MB/s
+BenchmarkShort5	9218	128332.83 ns/op	974.02982 MB/s
+BenchmarkMid5	21465	56022.891 ns/op	2231.2308 MB/s
+BenchmarkLong5	34051	35249.755 ns/op	3546.1239 MB/s
+BenchmarkShort20	7195	165114.92 ns/op	757.04849 MB/s
+BenchmarkMid20	17844	67040.248 ns/op	1864.5516 MB/s
+BenchmarkLong20	34053	35229.723 ns/op	3548.1403 MB/s
+BenchmarkShort40	5815	204051.53 ns/op	612.59035 MB/s
+BenchmarkMid40	16064	74728.383 ns/op	1672.7245 MB/s
+BenchmarkLong40	33849	35457.629 ns/op	3525.3344 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	17793	64618.131 ns/op	1934.4416 MB/s
+BenchmarkMid1	39636	30266.845 ns/op	4129.9316 MB/s
+BenchmarkLong1	56109	21385.859 ns/op	5844.9838 MB/s
+BenchmarkShort5	9168	127456.17 ns/op	980.72929 MB/s
+BenchmarkMid5	21138	56549.853 ns/op	2210.439 MB/s
+BenchmarkLong5	34074	35219.714 ns/op	3549.1486 MB/s
+BenchmarkShort20	7240	165968.76 ns/op	753.15379 MB/s
+BenchmarkMid20	17877	67018.299 ns/op	1865.1622 MB/s
+BenchmarkLong20	34076	35241.888 ns/op	3546.9155 MB/s
+BenchmarkShort40	5851	204027.22 ns/op	612.66336 MB/s
+BenchmarkMid40	16395	73366.711 ns/op	1703.77 MB/s
+BenchmarkLong40	33862	35440.533 ns/op	3527.035 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18286	64986.314 ns/op	1923.4819 MB/s
+BenchmarkMid1	38761	30951.155 ns/op	4038.6214 MB/s
+BenchmarkLong1	56108	21389.614 ns/op	5843.9577 MB/s
+BenchmarkShort5	9296	127544.7 ns/op	980.04859 MB/s
+BenchmarkMid5	21291	56471.711 ns/op	2213.4976 MB/s
+BenchmarkLong5	34054	35208.188 ns/op	3550.3105 MB/s
+BenchmarkShort20	7167	165281.9 ns/op	756.28365 MB/s
+BenchmarkMid20	17797	67241.666 ns/op	1858.9664 MB/s
+BenchmarkLong20	34058	35180.591 ns/op	3553.0955 MB/s
+BenchmarkShort40	5852	203522.74 ns/op	614.18197 MB/s
+BenchmarkMid40	16135	74523.241 ns/op	1677.3291 MB/s
+BenchmarkLong40	33862	35433.42 ns/op	3527.743 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort1	18060	64714.219 ns/op	1931.5693 MB/s
+BenchmarkMid1	38845	30828.967 ns/op	4054.6282 MB/s
+BenchmarkLong1	56114	21384.701 ns/op	5845.3004 MB/s
+BenchmarkShort5	9242	127887.94 ns/op	977.41823 MB/s
+BenchmarkMid5	21442	56241.599 ns/op	2222.5542 MB/s
+BenchmarkLong5	34054	35212.865 ns/op	3549.8389 MB/s
+BenchmarkShort20	7252	163297.06 ns/op	765.47613 MB/s
+BenchmarkMid20	17948	66989.066 ns/op	1865.9762 MB/s
+BenchmarkLong20	34056	35226.004 ns/op	3548.5149 MB/s
+BenchmarkShort40	5784	206251.94 ns/op	606.05491 MB/s
+BenchmarkMid40	16137	74531.466 ns/op	1677.144 MB/s
+BenchmarkLong40	33846	35449.703 ns/op	3526.1226 MB/s
