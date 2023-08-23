@@ -49,7 +49,6 @@ dostrcspnbench(const char *buf, const char *set, size_t n)
 
 	pos = buf;
 	for (i = 0; i < n; i++)
-		/* this should never match */
 		pos += strcspn(pos, set) + 1;
 }
 
@@ -57,7 +56,7 @@ static void
 strcspnbench(struct B *b, void *payload)
 {
 	struct testparam *param;
-	char *buf, set[17];
+	char *buf, set[64];
 	size_t n;
 	long i;
 	int j;
@@ -103,10 +102,24 @@ main(void)
 	longparam.maxchar = UCHAR_MAX - 1;
 	runbenchmark("long1", strcspnbench, (void *)&longparam);
 
-	shortparam.maxchar = UCHAR_MAX - 2;
-	runbenchmark("short2", strcspnbench, (void *)&shortparam);
-	midparam.maxchar = UCHAR_MAX - 2;
-	runbenchmark("mid2", strcspnbench, (void *)&midparam);
-	longparam.maxchar = UCHAR_MAX - 2;
-	runbenchmark("long2", strcspnbench, (void *)&longparam);
+	shortparam.maxchar = UCHAR_MAX - 5;
+	runbenchmark("short5", strcspnbench, (void *)&shortparam);
+	midparam.maxchar = UCHAR_MAX - 5;
+	runbenchmark("mid5", strcspnbench, (void *)&midparam);
+	longparam.maxchar = UCHAR_MAX - 5;
+	runbenchmark("long5", strcspnbench, (void *)&longparam);
+
+	shortparam.maxchar = UCHAR_MAX - 20;
+	runbenchmark("short20", strcspnbench, (void *)&shortparam);
+	midparam.maxchar = UCHAR_MAX - 20;
+	runbenchmark("mid20", strcspnbench, (void *)&midparam);
+	longparam.maxchar = UCHAR_MAX - 20;
+	runbenchmark("long20", strcspnbench, (void *)&longparam);
+
+	shortparam.maxchar = UCHAR_MAX - 40;
+	runbenchmark("short40", strcspnbench, (void *)&shortparam);
+	midparam.maxchar = UCHAR_MAX - 40;
+	runbenchmark("mid40", strcspnbench, (void *)&midparam);
+	longparam.maxchar = UCHAR_MAX - 40;
+	runbenchmark("long40", strcspnbench, (void *)&longparam);
 }
