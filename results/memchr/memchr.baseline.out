@@ -1,0 +1,140 @@
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39374	29654.217 ns/op	4215.2521 MB/s
+BenchmarkMid	155919	7746.1745 ns/op	16136.998 MB/s
+BenchmarkLong	488446	2453.8114 ns/op	50941.161 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39424	30058.812 ns/op	4158.5143 MB/s
+BenchmarkMid	153321	7767.8555 ns/op	16091.957 MB/s
+BenchmarkLong	488643	2458.1048 ns/op	50852.186 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39516	29425.821 ns/op	4247.9698 MB/s
+BenchmarkMid	153969	7784.9721 ns/op	16056.577 MB/s
+BenchmarkLong	487880	2454.7804 ns/op	50921.052 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39370	29432.229 ns/op	4247.045 MB/s
+BenchmarkMid	154629	7751.3804 ns/op	16126.16 MB/s
+BenchmarkLong	488877	2456.4216 ns/op	50887.031 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39145	29577.333 ns/op	4226.2093 MB/s
+BenchmarkMid	152142	7706.6502 ns/op	16219.758 MB/s
+BenchmarkLong	487882	2455.9309 ns/op	50897.197 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39822	29750.518 ns/op	4201.6076 MB/s
+BenchmarkMid	154058	7806.8063 ns/op	16011.669 MB/s
+BenchmarkLong	488142	2455.3977 ns/op	50908.25 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39820	29680.824 ns/op	4211.4733 MB/s
+BenchmarkMid	155476	7759.6304 ns/op	16109.015 MB/s
+BenchmarkLong	488948	2457.3673 ns/op	50867.446 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	40450	29065.819 ns/op	4300.5842 MB/s
+BenchmarkMid	151982	7769.8174 ns/op	16087.894 MB/s
+BenchmarkLong	488049	2456.9986 ns/op	50875.08 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39360	29627.188 ns/op	4219.0977 MB/s
+BenchmarkMid	153654	7755.5649 ns/op	16117.459 MB/s
+BenchmarkLong	488762	2457.4176 ns/op	50866.405 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39526	29314.382 ns/op	4264.1186 MB/s
+BenchmarkMid	154503	7795.3002 ns/op	16035.303 MB/s
+BenchmarkLong	488329	2458.9351 ns/op	50835.013 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39093	29986.256 ns/op	4168.5764 MB/s
+BenchmarkMid	155136	7770.5824 ns/op	16086.31 MB/s
+BenchmarkLong	488002	2457.2074 ns/op	50870.757 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39868	30041.909 ns/op	4160.854 MB/s
+BenchmarkMid	151731	7759.9296 ns/op	16108.394 MB/s
+BenchmarkLong	488235	2454.2869 ns/op	50931.292 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39992	29444.26 ns/op	4245.3096 MB/s
+BenchmarkMid	155272	7739.555 ns/op	16150.799 MB/s
+BenchmarkLong	488617	2456.4545 ns/op	50886.349 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39147	29723.532 ns/op	4205.4221 MB/s
+BenchmarkMid	152250	7790.7148 ns/op	16044.741 MB/s
+BenchmarkLong	489284	2454.8281 ns/op	50920.063 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	40110	29257.111 ns/op	4272.4656 MB/s
+BenchmarkMid	153949	7754.3543 ns/op	16119.975 MB/s
+BenchmarkLong	488534	2454.3527 ns/op	50929.925 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	38296	30012.57 ns/op	4164.9216 MB/s
+BenchmarkMid	150666	7748.0609 ns/op	16133.069 MB/s
+BenchmarkLong	488714	2456.055 ns/op	50894.625 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	40119	29420.14 ns/op	4248.7901 MB/s
+BenchmarkMid	154202	7727.1431 ns/op	16176.742 MB/s
+BenchmarkLong	488216	2456.3078 ns/op	50889.387 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39280	29767.111 ns/op	4199.2654 MB/s
+BenchmarkMid	154838	7806.5335 ns/op	16012.229 MB/s
+BenchmarkLong	488792	2456.6079 ns/op	50883.171 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	38642	29592.049 ns/op	4224.1076 MB/s
+BenchmarkMid	153852	7811.349 ns/op	16002.358 MB/s
+BenchmarkLong	487986	2456.05 ns/op	50894.729 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkShort	39548	29581.626 ns/op	4225.596 MB/s
+BenchmarkMid	153228	7827.5959 ns/op	15969.143 MB/s
+BenchmarkLong	488607	2456.2222 ns/op	50891.161 MB/s
