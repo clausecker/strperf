@@ -66,6 +66,7 @@ struct testparam {
 };
 
 extern char		 *gentests(const struct testparam *);
+extern void		**genmemtests(const struct testparam *, size_t *);
 extern char		**mkpointers(size_t *, const char *, size_t);
 
 #endif /* BENCHMARK_H */

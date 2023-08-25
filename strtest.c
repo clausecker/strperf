@@ -36,8 +36,7 @@
 #include "benchmark.h"
 
 /*
- * Generate a test case according to the given test
- * parameters.
+ * Generate a string test case according to the given test parameters.
  */
 extern char *
 gentests(const struct testparam *params)
@@ -74,6 +73,68 @@ gentests(const struct testparam *params)
 	memset(buf + i, '\0', params->charlen);
 
 	return (buf);
+}
+
+/*
+ * Generate a memory test case according to the given test parameters.
+ * Return an array of pointers to the test buffers and set *nparam to
+ * their number.  The array is terminated by a pointer to the final
+ * buffer such that the length of the i-th buffer is always
+ * buffers[i+1] - buffers[i].
+ */
+extern void **
+genmemtests(const struct testparam *params, size_t *nparam)
+{
+	double p;
+	size_t i, n;
+	unsigned short state[3];
+	char *buf;
+	void **ptrs;
+
+	buf = malloc(params->buflen);
+	if (buf == NULL) {
+		perror("genmemtests");
+		exit(EXIT_FAILURE);
+	}
+
+	assert(0 < params->maxchar && params->maxchar <= UCHAR_MAX);
+	assert(params->avglen > 0);
+	p = 1.0 / (params->avglen + 1.0);
+
+	/* dry run to determine the number of entries */
+	memcpy(state, params->xseed, sizeof state);
+	for (i = n = 0; i < params->buflen - 1; i += params->charlen) {
+		double prob;
+
+		while (prob = erand48(state), prob <= p)
+			n++;
+
+		prob = erand48(state);
+		memset(buf + i, 1 + (int)(prob * (params->maxchar - 1.0)), params->charlen);
+	}
+
+	*nparam = n + 1;
+	ptrs = calloc(n + 1, sizeof *ptrs);
+	if (ptrs == NULL) {
+		perror("genmemtests");
+		exit(EXIT_FAILURE);
+	}
+
+	ptrs[0] = buf;
+	memcpy(state, params->xseed, sizeof state);
+	for (i = n = 0; i < params->buflen - 1; i += params->charlen) {
+		double prob;
+
+		while (prob = erand48(state), prob <= p)
+			ptrs[++n] = buf + i;
+
+		prob = erand48(state);
+		memset(buf + i, 1 + (int)(prob * (params->maxchar - 1.0)), params->charlen);
+	}
+
+	ptrs[n + 1] = buf + params->buflen;
+
+	return (ptrs);
 }
 
 /*
