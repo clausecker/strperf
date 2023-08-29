@@ -114,7 +114,7 @@ genmemtests(const struct testparam *params, size_t *nparam)
 	}
 
 	*nparam = n + 1;
-	ptrs = calloc(n + 1, sizeof *ptrs);
+	ptrs = calloc(n + 2, sizeof *ptrs);
 	if (ptrs == NULL) {
 		perror("genmemtests");
 		exit(EXIT_FAILURE);
