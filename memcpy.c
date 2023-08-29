@@ -40,8 +40,8 @@ struct testparam
     param64   = { .avglen = 1 <<  6, .buflen = 1 << 18, .charlen = 1, .maxchar = 127, .xseed = { 234, 567, 890 }},
     param4k   = { .avglen = 1 << 12, .buflen = 1 << 18, .charlen = 1, .maxchar = 127, .xseed = { 0x1337, 0x4223, 0xf001 }},
     param256k = { .avglen = 1e18, .buflen = 1 << 18, .charlen = 1, .maxchar = 127, .xseed = { 0xdead, 0xbeef, 0xfee1 }},
-    param16m  = { .avglen = 1e18, .buflen = 1 << 24, .charlen = 1, .maxchar = 127, .xseed = { 0xc0fe, 0xf00d, 0xb01d }},
-    param1g   = { .avglen = 1e18, .buflen = 1 << 30, .charlen = 1, .maxchar = 127, .xseed = { 4711, 3125, 4096 }};
+    param16m  = { .avglen = 1e18, .buflen = 1 << 24, .charlen = 16, .maxchar = 127, .xseed = { 0xc0fe, 0xf00d, 0xb01d }},
+    param1g   = { .avglen = 1e18, .buflen = 1 << 30, .charlen = 16, .maxchar = 127, .xseed = { 4711, 3125, 4096 }};
 
 static void
 domemcpybench(void **ptrs, char *dest, size_t n)
