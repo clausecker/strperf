@@ -34,6 +34,8 @@
 
 #include "benchmark.h"
 
+static int (*mymemcmp)(const void *, const void *, size_t);
+
 struct testparam
     shortparam = { .avglen = 16,      .buflen = 1 << 17, .charlen = 1, .maxchar = 255, .xseed = { 123, 456, 789 }},
     midparam =   { .avglen = 64,      .buflen = 1 << 17, .charlen = 1, .maxchar = 255, .xseed = { 234, 567, 890 }},
@@ -46,7 +48,7 @@ domemcmpbench(const char *bufa, const char *bufb, const char **ptrs)
 	size_t i;
 
 	for (i = 0; ptrs[i+1] != NULL; i++)
-		result += memcmp(ptrs[i], bufb + (ptrs[i] - bufa), (size_t)(ptrs[i+1] - ptrs[i]));
+		result += mymemcmp(ptrs[i], bufb + (ptrs[i] - bufa), (size_t)(ptrs[i+1] - ptrs[i]));
 }
 
 static void
@@ -85,7 +87,25 @@ main(void)
 {
 	preamble();
 
-	runbenchmark("short", memcmpbench, (void *)&shortparam);
-	runbenchmark("mid", memcmpbench, (void *)&midparam);
-	runbenchmark("long", memcmpbench, (void *)&longparam);
+	mymemcmp = memcmp;
+	runbenchmark("memcmpShort", memcmpbench, (void *)&shortparam);
+	runbenchmark("memcmpMid", memcmpbench, (void *)&midparam);
+	runbenchmark("memcmpLong", memcmpbench, (void *)&longparam);
+
+	mymemcmp = bcmp;
+	runbenchmark("bcmpShort", memcmpbench, (void *)&shortparam);
+	runbenchmark("bcmpMid", memcmpbench, (void *)&midparam);
+	runbenchmark("bcmpLong", memcmpbench, (void *)&longparam);
+
+#ifdef __FreeBSD__
+	mymemcmp = timingsafe_bcmp;
+	runbenchmark("tsBmpShort", memcmpbench, (void *)&shortparam);
+	runbenchmark("tsBcmpMid", memcmpbench, (void *)&midparam);
+	runbenchmark("tsBcmpLong", memcmpbench, (void *)&longparam);
+
+	mymemcmp = timingsafe_memcmp;
+	runbenchmark("tsMempShort", memcmpbench, (void *)&shortparam);
+	runbenchmark("tsMemcmpMid", memcmpbench, (void *)&midparam);
+	runbenchmark("tsMemcmpLong", memcmpbench, (void *)&longparam);
+#endif
 }
