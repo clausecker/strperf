@@ -99,12 +99,12 @@ main(void)
 
 #ifdef __FreeBSD__
 	mymemcmp = timingsafe_bcmp;
-	runbenchmark("tsBmpShort", memcmpbench, (void *)&shortparam);
+	runbenchmark("tsBcmpShort", memcmpbench, (void *)&shortparam);
 	runbenchmark("tsBcmpMid", memcmpbench, (void *)&midparam);
 	runbenchmark("tsBcmpLong", memcmpbench, (void *)&longparam);
 
 	mymemcmp = timingsafe_memcmp;
-	runbenchmark("tsMempShort", memcmpbench, (void *)&shortparam);
+	runbenchmark("tsMemcmpShort", memcmpbench, (void *)&shortparam);
 	runbenchmark("tsMemcmpMid", memcmpbench, (void *)&midparam);
 	runbenchmark("tsMemcmpLong", memcmpbench, (void *)&longparam);
 #endif
