@@ -69,7 +69,7 @@ memcmpbench(struct B *b, void *payload)
 		exit(EXIT_FAILURE);
 	}
 
-	memcpy(src, dest, param->buflen);
+	memcpy(dest, src, param->buflen);
 	domemcmpbench(src, dest, ptrs);
 
 	resettimer(b);
