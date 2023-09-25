@@ -1,0 +1,180 @@
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32499	36853.313 ns/op	3391.8253 MB/s
+BenchmarkStrcmpMidAligned	84847	13983.321 ns/op	8939.2215 MB/s
+BenchmarkStrcmpLongAligned	516006	2326.7776 ns/op	53722.367 MB/s
+BenchmarkStrcmpShortUnaligned	29146	41260.213 ns/op	3029.5529 MB/s
+BenchmarkStrcmpMidUnaligned	57320	20774.397 ns/op	6017.0217 MB/s
+BenchmarkStrcmpLongUnaligned	516006	2326.2751 ns/op	53733.972 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32656	36569.87 ns/op	3418.1145 MB/s
+BenchmarkStrcmpMidAligned	85696	13962.856 ns/op	8952.3234 MB/s
+BenchmarkStrcmpLongAligned	514291	2330.415 ns/op	53638.515 MB/s
+BenchmarkStrcmpShortUnaligned	29235	41253.772 ns/op	3030.026 MB/s
+BenchmarkStrcmpMidUnaligned	57736	20775.076 ns/op	6016.8251 MB/s
+BenchmarkStrcmpLongUnaligned	514964	2325.1089 ns/op	53760.924 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32742	36999.46 ns/op	3378.4277 MB/s
+BenchmarkStrcmpMidAligned	85940	13962.338 ns/op	8952.6555 MB/s
+BenchmarkStrcmpLongAligned	516465	2323.7731 ns/op	53791.826 MB/s
+BenchmarkStrcmpShortUnaligned	28900	41263.153 ns/op	3029.3371 MB/s
+BenchmarkStrcmpMidUnaligned	57397	20917.138 ns/op	5975.9611 MB/s
+BenchmarkStrcmpLongUnaligned	516908	2325.5108 ns/op	53751.632 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32893	36661.033 ns/op	3409.6148 MB/s
+BenchmarkStrcmpMidAligned	85794	13990.031 ns/op	8934.9339 MB/s
+BenchmarkStrcmpLongAligned	514405	2326.4249 ns/op	53730.511 MB/s
+BenchmarkStrcmpShortUnaligned	29037	41218.212 ns/op	3032.64 MB/s
+BenchmarkStrcmpMidUnaligned	57634	20768.113 ns/op	6018.8425 MB/s
+BenchmarkStrcmpLongUnaligned	515286	2325.2554 ns/op	53757.535 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32725	36675.494 ns/op	3408.2704 MB/s
+BenchmarkStrcmpMidAligned	85815	13948.719 ns/op	8961.3962 MB/s
+BenchmarkStrcmpLongAligned	515959	2323.9871 ns/op	53786.872 MB/s
+BenchmarkStrcmpShortUnaligned	29073	41215.892 ns/op	3032.8108 MB/s
+BenchmarkStrcmpMidUnaligned	57223	20767.146 ns/op	6019.1228 MB/s
+BenchmarkStrcmpLongUnaligned	515959	2324.3898 ns/op	53777.554 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32660	36749.593 ns/op	3401.3982 MB/s
+BenchmarkStrcmpMidAligned	85569	14016.506 ns/op	8918.0568 MB/s
+BenchmarkStrcmpLongAligned	516099	2323.2995 ns/op	53802.792 MB/s
+BenchmarkStrcmpShortUnaligned	29028	46214.705 ns/op	2704.7668 MB/s
+BenchmarkStrcmpMidUnaligned	57105	20847.495 ns/op	5995.9243 MB/s
+BenchmarkStrcmpLongUnaligned	516715	2324.4413 ns/op	53776.364 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32391	36748.958 ns/op	3401.457 MB/s
+BenchmarkStrcmpMidAligned	85306	14015.327 ns/op	8918.8072 MB/s
+BenchmarkStrcmpLongAligned	515760	2327.4911 ns/op	53705.899 MB/s
+BenchmarkStrcmpShortUnaligned	28968	41184.824 ns/op	3035.0985 MB/s
+BenchmarkStrcmpMidUnaligned	56983	20905.919 ns/op	5979.168 MB/s
+BenchmarkStrcmpLongUnaligned	515592	2324.7869 ns/op	53768.37 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32541	36681.316 ns/op	3407.7294 MB/s
+BenchmarkStrcmpMidAligned	86216	13968.401 ns/op	8948.7692 MB/s
+BenchmarkStrcmpLongAligned	514974	2327.5031 ns/op	53705.62 MB/s
+BenchmarkStrcmpShortUnaligned	29071	41217.376 ns/op	3032.7016 MB/s
+BenchmarkStrcmpMidUnaligned	57505	20910.297 ns/op	5977.9162 MB/s
+BenchmarkStrcmpLongUnaligned	514311	2329.5237 ns/op	53659.037 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32734	37126.391 ns/op	3366.8772 MB/s
+BenchmarkStrcmpMidAligned	86042	13927.624 ns/op	8974.9694 MB/s
+BenchmarkStrcmpLongAligned	516984	2324.3537 ns/op	53778.391 MB/s
+BenchmarkStrcmpShortUnaligned	26305	41268.679 ns/op	3028.9315 MB/s
+BenchmarkStrcmpMidUnaligned	57854	20842.214 ns/op	5997.4433 MB/s
+BenchmarkStrcmpLongUnaligned	515652	2324.5932 ns/op	53772.85 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32761	36561.755 ns/op	3418.8731 MB/s
+BenchmarkStrcmpMidAligned	85839	13967.523 ns/op	8949.332 MB/s
+BenchmarkStrcmpLongAligned	513933	2330.8392 ns/op	53628.753 MB/s
+BenchmarkStrcmpShortUnaligned	25878	42334.98 ns/op	2952.641 MB/s
+BenchmarkStrcmpMidUnaligned	57873	20736.27 ns/op	6028.0851 MB/s
+BenchmarkStrcmpLongUnaligned	515299	2326.1741 ns/op	53736.304 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	34359	35092.424 ns/op	3562.0224 MB/s
+BenchmarkStrcmpMidAligned	87333	13677.406 ns/op	9139.1599 MB/s
+BenchmarkStrcmpLongAligned	518662	2314.2119 ns/op	54014.068 MB/s
+BenchmarkStrcmpShortUnaligned	29298	40994.789 ns/op	3049.168 MB/s
+BenchmarkStrcmpMidUnaligned	57920	20711.579 ns/op	6035.2713 MB/s
+BenchmarkStrcmpLongUnaligned	518812	2314.6415 ns/op	54004.043 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	33963	35162.207 ns/op	3554.9532 MB/s
+BenchmarkStrcmpMidAligned	87136	13779.94 ns/op	9071.1573 MB/s
+BenchmarkStrcmpLongAligned	517530	2314.169 ns/op	54015.069 MB/s
+BenchmarkStrcmpShortUnaligned	29203	41020.037 ns/op	3047.2912 MB/s
+BenchmarkStrcmpMidUnaligned	57308	20911.952 ns/op	5977.443 MB/s
+BenchmarkStrcmpLongUnaligned	518335	2315.2172 ns/op	53990.616 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	33866	35489.959 ns/op	3522.123 MB/s
+BenchmarkStrcmpMidAligned	89266	13388.414 ns/op	9336.4309 MB/s
+BenchmarkStrcmpLongAligned	518688	2312.4579 ns/op	54055.039 MB/s
+BenchmarkStrcmpShortUnaligned	28668	41831.38 ns/op	2988.1873 MB/s
+BenchmarkStrcmpMidUnaligned	58933	20075.285 ns/op	6226.5618 MB/s
+BenchmarkStrcmpLongUnaligned	519217	2300.7778 ns/op	54329.452 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	36741	34217.593 ns/op	3653.0916 MB/s
+BenchmarkStrcmpMidAligned	85083	14009.055 ns/op	8922.8002 MB/s
+BenchmarkStrcmpLongAligned	534168	2245.9954 ns/op	55654.611 MB/s
+BenchmarkStrcmpShortUnaligned	28809	41667.81 ns/op	2999.9177 MB/s
+BenchmarkStrcmpMidUnaligned	55042	21763.404 ns/op	5743.5867 MB/s
+BenchmarkStrcmpLongUnaligned	527469	2273.3727 ns/op	54984.386 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	33724	35742.095 ns/op	3497.2768 MB/s
+BenchmarkStrcmpMidAligned	85524	14767.07 ns/op	8464.78 MB/s
+BenchmarkStrcmpLongAligned	519619	2308.3745 ns/op	54150.658 MB/s
+BenchmarkStrcmpShortUnaligned	28237	42590.193 ns/op	2934.9479 MB/s
+BenchmarkStrcmpMidUnaligned	60932	20783.112 ns/op	6014.4988 MB/s
+BenchmarkStrcmpLongUnaligned	519450	2310.6882 ns/op	54096.438 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	34755	34211.594 ns/op	3653.7321 MB/s
+BenchmarkStrcmpMidAligned	86935	13760.131 ns/op	9084.2161 MB/s
+BenchmarkStrcmpLongAligned	518383	2314.8959 ns/op	53998.108 MB/s
+BenchmarkStrcmpShortUnaligned	27969	42706.384 ns/op	2926.9628 MB/s
+BenchmarkStrcmpMidUnaligned	58314	20496.087 ns/op	6098.725 MB/s
+BenchmarkStrcmpLongUnaligned	518827	2310.6666 ns/op	54096.943 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	34087	34929.5 ns/op	3578.6369 MB/s
+BenchmarkStrcmpMidAligned	85660	13833.766 ns/op	9035.862 MB/s
+BenchmarkStrcmpLongAligned	519994	2309.6213 ns/op	54121.426 MB/s
+BenchmarkStrcmpShortUnaligned	27969	42771.041 ns/op	2922.5381 MB/s
+BenchmarkStrcmpMidUnaligned	58089	20557.195 ns/op	6080.596 MB/s
+BenchmarkStrcmpLongUnaligned	519331	2311.9259 ns/op	54067.478 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32674	36566.838 ns/op	3418.3979 MB/s
+BenchmarkStrcmpMidAligned	87871	13722.951 ns/op	9108.8282 MB/s
+BenchmarkStrcmpLongAligned	519421	2314.2852 ns/op	54012.358 MB/s
+BenchmarkStrcmpShortUnaligned	28278	42480.892 ns/op	2942.4995 MB/s
+BenchmarkStrcmpMidUnaligned	61305	19514.926 ns/op	6405.3535 MB/s
+BenchmarkStrcmpLongUnaligned	518565	2315.9381 ns/op	53973.808 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	34369	34863.367 ns/op	3585.4254 MB/s
+BenchmarkStrcmpMidAligned	85550	14016.765 ns/op	8917.8923 MB/s
+BenchmarkStrcmpLongAligned	518623	2316.5169 ns/op	53960.322 MB/s
+BenchmarkStrcmpShortUnaligned	29457	40856.993 ns/op	3059.4518 MB/s
+BenchmarkStrcmpMidUnaligned	55152	21599.477 ns/op	5787.1771 MB/s
+BenchmarkStrcmpLongUnaligned	518758	2312.7851 ns/op	54047.39 MB/s
+os: Linux
+arch: x86_64
+
+BenchmarkStrcmpShortAligned	32480	36702.103 ns/op	3405.7994 MB/s
+BenchmarkStrcmpMidAligned	86191	13957.462 ns/op	8955.783 MB/s
+BenchmarkStrcmpLongAligned	515926	2325.0778 ns/op	53761.641 MB/s
+BenchmarkStrcmpShortUnaligned	29085	41461.059 ns/op	3014.8772 MB/s
+BenchmarkStrcmpMidUnaligned	57565	20770.301 ns/op	6018.2083 MB/s
+BenchmarkStrcmpLongUnaligned	516471	2326.582 ns/op	53726.883 MB/s
