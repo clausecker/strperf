@@ -35,9 +35,9 @@
 #include "benchmark.h"
 
 struct testparam
-    shortparam = { .avglen = 16,      .buflen = 1 << 17, .charlen = 1, .maxchar = 127, .xseed = { 123, 456, 789 }},
-    midparam =   { .avglen = 64,      .buflen = 1 << 17, .charlen = 1, .maxchar = 127, .xseed = { 234, 567, 890 }},
-    longparam =  { .avglen = 1 << 30, .buflen = 1 << 17, .charlen = 1, .maxchar = 127, .xseed = { 345, 678, 910 }};
+    shortparam = { .avglen = 16,      .buflen = 1 << 17, .charlen = 1, .maxchar = 16, .xseed = { 123, 456, 789 }},
+    midparam =   { .avglen = 64,      .buflen = 1 << 17, .charlen = 1, .maxchar = 16, .xseed = { 234, 567, 890 }},
+    longparam =  { .avglen = 1 << 30, .buflen = 1 << 17, .charlen = 1, .maxchar = 16, .xseed = { 345, 678, 910 }};
 
 static void
 dostrcmpbench(const char *bufa, const char *bufb, const char **ptrs)
@@ -124,6 +124,48 @@ strcmpbenchu(struct B *b, void *payload)
 	free(src);
 }
 
+static int
+strcmp_compar(const void *a, const void *b)
+{
+	return (strcmp(*(char **)a, *(char **)b));
+}
+
+static void
+strcmpqsort(struct B *b, void *payload)
+{
+	struct testparam *param;
+	size_t nstr;
+	char *src;
+	const char **orig, **ptrs;
+	long i;
+
+	param = payload;
+	b->bytes = param->buflen;
+	src = gentests(param);
+	orig = (const char **)mkpointers(&nstr, src, param->buflen);
+	ptrs = calloc(sizeof *ptrs, nstr);
+	if (ptrs == NULL) {
+		perror("calloc");
+		exit(EXIT_FAILURE);
+	}
+
+	memcpy(ptrs, orig, nstr * sizeof *ptrs);
+	qsort(ptrs, nstr, sizeof *ptrs, strcmp_compar);
+
+	resettimer(b);
+	for (i = 0; i < b->n; i++) {
+		stoptimer(b);
+		memcpy(ptrs, orig, nstr * sizeof *ptrs);
+		starttimer(b);
+		qsort(ptrs, nstr, sizeof *ptrs, strcmp_compar);
+	}
+	stoptimer(b);
+
+	free(ptrs);
+	free(orig);
+	free(src);
+}
+
 extern int
 main(void)
 {
@@ -138,4 +180,8 @@ main(void)
 	runbenchmark("strcmpShortUnaligned", strcmpbenchu, (void *)&shortparam);
 	runbenchmark("strcmpMidUnaligned", strcmpbenchu, (void *)&midparam);
 	runbenchmark("strcmpLongUnaligned", strcmpbenchu, (void *)&longparam);
+
+	/* qsort benchmarks */
+	runbenchmark("strcmpShortQsort", strcmpqsort, (void *)&shortparam);
+	runbenchmark("strcmpMidQsort", strcmpqsort, (void *)&midparam);
 }
