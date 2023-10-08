@@ -1,0 +1,240 @@
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8660	137369.16 ns/op	909.95679 MB/s
+BenchmarkStrncmpMidAligned	13563	88519.227 ns/op	1412.1226 MB/s
+BenchmarkStrncmpLongAligned	16718	71652.955 ns/op	1744.5198 MB/s
+BenchmarkStrncmpShortUnaligned	8793	135681.23 ns/op	921.27703 MB/s
+BenchmarkStrncmpMidUnaligned	13568	88377.473 ns/op	1414.3876 MB/s
+BenchmarkStrncmpLongUnaligned	16750	71707.067 ns/op	1743.2033 MB/s
+BenchmarkStrncmpShortQsort	1334	898625.65 ns/op	139.1013 MB/s
+BenchmarkStrncmpMidQsort	5872	202784.18 ns/op	616.41891 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8710	144874.46 ns/op	862.816 MB/s
+BenchmarkStrncmpMidAligned	13580	88348.759 ns/op	1414.8473 MB/s
+BenchmarkStrncmpLongAligned	16750	71641.093 ns/op	1744.8087 MB/s
+BenchmarkStrncmpShortUnaligned	8845	135557.93 ns/op	922.11497 MB/s
+BenchmarkStrncmpMidUnaligned	13470	88933.933 ns/op	1405.5378 MB/s
+BenchmarkStrncmpLongUnaligned	16748	71645.33 ns/op	1744.7055 MB/s
+BenchmarkStrncmpShortQsort	1330	899904.01 ns/op	138.9037 MB/s
+BenchmarkStrncmpMidQsort	5888	202700.24 ns/op	616.67417 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8680	137970.76 ns/op	905.98906 MB/s
+BenchmarkStrncmpMidAligned	13572	88483.107 ns/op	1412.699 MB/s
+BenchmarkStrncmpLongAligned	16749	71643.566 ns/op	1744.7484 MB/s
+BenchmarkStrncmpShortUnaligned	8809	136385.33 ns/op	916.52083 MB/s
+BenchmarkStrncmpMidUnaligned	13447	89126.417 ns/op	1402.5022 MB/s
+BenchmarkStrncmpLongUnaligned	16749	71639.37 ns/op	1744.8506 MB/s
+BenchmarkStrncmpShortQsort	1334	898765.88 ns/op	139.0796 MB/s
+BenchmarkStrncmpMidQsort	5848	203526.73 ns/op	614.16995 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8748	136680.96 ns/op	914.53852 MB/s
+BenchmarkStrncmpMidAligned	13581	88321.843 ns/op	1415.2784 MB/s
+BenchmarkStrncmpLongAligned	16749	71656.892 ns/op	1744.424 MB/s
+BenchmarkStrncmpShortUnaligned	8816	135724.42 ns/op	920.98385 MB/s
+BenchmarkStrncmpMidUnaligned	13573	88436.105 ns/op	1413.4499 MB/s
+BenchmarkStrncmpLongUnaligned	16749	71685.07 ns/op	1743.7383 MB/s
+BenchmarkStrncmpShortQsort	1328	902158.17 ns/op	138.55663 MB/s
+BenchmarkStrncmpMidQsort	5864	203253.59 ns/op	614.9953 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8738	137420.67 ns/op	909.6157 MB/s
+BenchmarkStrncmpMidAligned	13579	88513.667 ns/op	1412.2113 MB/s
+BenchmarkStrncmpLongAligned	16746	71654.654 ns/op	1744.4784 MB/s
+BenchmarkStrncmpShortUnaligned	8721	135637.55 ns/op	921.5737 MB/s
+BenchmarkStrncmpMidUnaligned	13564	88463.566 ns/op	1413.0111 MB/s
+BenchmarkStrncmpLongUnaligned	16748	71665.413 ns/op	1744.2166 MB/s
+BenchmarkStrncmpShortQsort	1333	900136.6 ns/op	138.86781 MB/s
+BenchmarkStrncmpMidQsort	5847	203289.81 ns/op	614.8857 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8684	151120.56 ns/op	827.15415 MB/s
+BenchmarkStrncmpMidAligned	13572	88391.094 ns/op	1414.1696 MB/s
+BenchmarkStrncmpLongAligned	16750	85889.796 ns/op	1455.3533 MB/s
+BenchmarkStrncmpShortUnaligned	8762	135883.13 ns/op	919.90814 MB/s
+BenchmarkStrncmpMidUnaligned	13567	88388.99 ns/op	1414.2033 MB/s
+BenchmarkStrncmpLongUnaligned	16719	71679.222 ns/op	1743.8805 MB/s
+BenchmarkStrncmpShortQsort	1332	899958.55 ns/op	138.89529 MB/s
+BenchmarkStrncmpMidQsort	5878	203550.36 ns/op	614.09865 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8726	137529.41 ns/op	908.89652 MB/s
+BenchmarkStrncmpMidAligned	13562	88417.19 ns/op	1413.7522 MB/s
+BenchmarkStrncmpLongAligned	16748	83639.347 ns/op	1494.5119 MB/s
+BenchmarkStrncmpShortUnaligned	8839	135816.91 ns/op	920.35671 MB/s
+BenchmarkStrncmpMidUnaligned	13456	89354.429 ns/op	1398.9234 MB/s
+BenchmarkStrncmpLongUnaligned	16749	71639.207 ns/op	1744.8546 MB/s
+BenchmarkStrncmpShortQsort	1335	897875.23 ns/op	139.21756 MB/s
+BenchmarkStrncmpMidQsort	5865	203301.8 ns/op	614.84946 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8588	137277.86 ns/op	910.56197 MB/s
+BenchmarkStrncmpMidAligned	13579	88403.288 ns/op	1413.9746 MB/s
+BenchmarkStrncmpLongAligned	16748	71655.471 ns/op	1744.4586 MB/s
+BenchmarkStrncmpShortUnaligned	8714	139237.32 ns/op	897.74784 MB/s
+BenchmarkStrncmpMidUnaligned	12776	124223.31 ns/op	1006.2523 MB/s
+BenchmarkStrncmpLongUnaligned	16749	71640.709 ns/op	1744.818 MB/s
+BenchmarkStrncmpShortQsort	1330	901434.8 ns/op	138.66782 MB/s
+BenchmarkStrncmpMidQsort	5798	205644.15 ns/op	607.84612 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8713	137745.87 ns/op	907.46821 MB/s
+BenchmarkStrncmpMidAligned	13567	88450.737 ns/op	1413.216 MB/s
+BenchmarkStrncmpLongAligned	16749	71663.925 ns/op	1744.2528 MB/s
+BenchmarkStrncmpShortUnaligned	8839	136097.02 ns/op	918.46241 MB/s
+BenchmarkStrncmpMidUnaligned	13500	88509.583 ns/op	1412.2764 MB/s
+BenchmarkStrncmpLongUnaligned	16749	71637.196 ns/op	1744.9036 MB/s
+BenchmarkStrncmpShortQsort	1332	903478.37 ns/op	138.35417 MB/s
+BenchmarkStrncmpMidQsort	5836	203234.96 ns/op	615.05165 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8689	136959.61 ns/op	912.67784 MB/s
+BenchmarkStrncmpMidAligned	10000	115608.41 ns/op	1081.2362 MB/s
+BenchmarkStrncmpLongAligned	15094	71646.891 ns/op	1744.6675 MB/s
+BenchmarkStrncmpShortUnaligned	8846	135664.13 ns/op	921.39313 MB/s
+BenchmarkStrncmpMidUnaligned	13455	89079.882 ns/op	1403.2349 MB/s
+BenchmarkStrncmpLongUnaligned	16743	71640.179 ns/op	1744.8309 MB/s
+BenchmarkStrncmpShortQsort	1332	902752.23 ns/op	138.46546 MB/s
+BenchmarkStrncmpMidQsort	5904	203600.11 ns/op	613.94859 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8726	179827.88 ns/op	695.10911 MB/s
+BenchmarkStrncmpMidAligned	10000	111690.58 ns/op	1119.1634 MB/s
+BenchmarkStrncmpLongAligned	16116	71642.356 ns/op	1744.7779 MB/s
+BenchmarkStrncmpShortUnaligned	8857	135597 ns/op	921.84929 MB/s
+BenchmarkStrncmpMidUnaligned	13460	89168.505 ns/op	1401.8403 MB/s
+BenchmarkStrncmpLongUnaligned	16748	71644.532 ns/op	1744.7249 MB/s
+BenchmarkStrncmpShortQsort	1332	902330.52 ns/op	138.53017 MB/s
+BenchmarkStrncmpMidQsort	5814	203794.92 ns/op	613.36171 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8733	137496.73 ns/op	909.11253 MB/s
+BenchmarkStrncmpMidAligned	13568	88580.24 ns/op	1411.1499 MB/s
+BenchmarkStrncmpLongAligned	16748	71643.777 ns/op	1744.7433 MB/s
+BenchmarkStrncmpShortUnaligned	8829	135796.63 ns/op	920.49413 MB/s
+BenchmarkStrncmpMidUnaligned	13455	89277.005 ns/op	1400.1366 MB/s
+BenchmarkStrncmpLongUnaligned	16748	71655.18 ns/op	1744.4656 MB/s
+BenchmarkStrncmpShortQsort	1332	921308.53 ns/op	135.67659 MB/s
+BenchmarkStrncmpMidQsort	5845	203887.68 ns/op	613.08266 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8709	137312.14 ns/op	910.33466 MB/s
+BenchmarkStrncmpMidAligned	13574	88413.592 ns/op	1413.8098 MB/s
+BenchmarkStrncmpLongAligned	16747	71663.083 ns/op	1744.2733 MB/s
+BenchmarkStrncmpShortUnaligned	8864	135234.64 ns/op	924.3194 MB/s
+BenchmarkStrncmpMidUnaligned	13507	89267.685 ns/op	1400.2828 MB/s
+BenchmarkStrncmpLongUnaligned	16749	71639.62 ns/op	1744.8445 MB/s
+BenchmarkStrncmpShortQsort	1332	902201.84 ns/op	138.54993 MB/s
+BenchmarkStrncmpMidQsort	5878	204282.28 ns/op	611.89841 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8704	137438.78 ns/op	909.49588 MB/s
+BenchmarkStrncmpMidAligned	13574	88425.838 ns/op	1413.614 MB/s
+BenchmarkStrncmpLongAligned	16749	71639.109 ns/op	1744.857 MB/s
+BenchmarkStrncmpShortUnaligned	8852	135487.22 ns/op	922.59625 MB/s
+BenchmarkStrncmpMidUnaligned	13466	89226.894 ns/op	1400.9229 MB/s
+BenchmarkStrncmpLongUnaligned	14974	71640.381 ns/op	1744.826 MB/s
+BenchmarkStrncmpShortQsort	1333	903108.57 ns/op	138.41082 MB/s
+BenchmarkStrncmpMidQsort	5876	203345.24 ns/op	614.71809 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8702	137850.54 ns/op	906.77921 MB/s
+BenchmarkStrncmpMidAligned	13575	88379.56 ns/op	1414.3542 MB/s
+BenchmarkStrncmpLongAligned	16750	71648.212 ns/op	1744.6353 MB/s
+BenchmarkStrncmpShortUnaligned	8850	135647.77 ns/op	921.50425 MB/s
+BenchmarkStrncmpMidUnaligned	13525	88787.444 ns/op	1407.8567 MB/s
+BenchmarkStrncmpLongUnaligned	16748	71631.994 ns/op	1745.0303 MB/s
+BenchmarkStrncmpShortQsort	1333	899757.08 ns/op	138.92639 MB/s
+BenchmarkStrncmpMidQsort	5904	203487.62 ns/op	614.28797 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8664	137528.55 ns/op	908.90219 MB/s
+BenchmarkStrncmpMidAligned	13533	88396.821 ns/op	1414.078 MB/s
+BenchmarkStrncmpLongAligned	16749	71640.803 ns/op	1744.8157 MB/s
+BenchmarkStrncmpShortUnaligned	8810	136277.17 ns/op	917.24831 MB/s
+BenchmarkStrncmpMidUnaligned	13460	88645.758 ns/op	1410.107 MB/s
+BenchmarkStrncmpLongUnaligned	16750	71635.567 ns/op	1744.9433 MB/s
+BenchmarkStrncmpShortQsort	1335	899444.44 ns/op	138.97468 MB/s
+BenchmarkStrncmpMidQsort	5882	202990.51 ns/op	615.79232 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8707	138089.49 ns/op	905.21011 MB/s
+BenchmarkStrncmpMidAligned	13556	88508.442 ns/op	1412.2947 MB/s
+BenchmarkStrncmpLongAligned	16750	71662.285 ns/op	1744.2927 MB/s
+BenchmarkStrncmpShortUnaligned	8802	136257.54 ns/op	917.38045 MB/s
+BenchmarkStrncmpMidUnaligned	13484	88875.142 ns/op	1406.4675 MB/s
+BenchmarkStrncmpLongUnaligned	16750	71636.576 ns/op	1744.9187 MB/s
+BenchmarkStrncmpShortQsort	1329	901723.78 ns/op	138.62338 MB/s
+BenchmarkStrncmpMidQsort	5818	203609.24 ns/op	613.92105 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8658	136900.87 ns/op	913.06946 MB/s
+BenchmarkStrncmpMidAligned	13566	88389.063 ns/op	1414.2021 MB/s
+BenchmarkStrncmpLongAligned	16750	71640.324 ns/op	1744.8274 MB/s
+BenchmarkStrncmpShortUnaligned	8827	135855.64 ns/op	920.09428 MB/s
+BenchmarkStrncmpMidUnaligned	13606	88239.259 ns/op	1416.603 MB/s
+BenchmarkStrncmpLongUnaligned	16750	71634.689 ns/op	1744.9647 MB/s
+BenchmarkStrncmpShortQsort	1334	900657.52 ns/op	138.78749 MB/s
+BenchmarkStrncmpMidQsort	5881	203669.71 ns/op	613.73879 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8761	136889.14 ns/op	913.14771 MB/s
+BenchmarkStrncmpMidAligned	13590	88285.659 ns/op	1415.8585 MB/s
+BenchmarkStrncmpLongAligned	16737	71633.014 ns/op	1745.0054 MB/s
+BenchmarkStrncmpShortUnaligned	8702	137994.95 ns/op	905.83023 MB/s
+BenchmarkStrncmpMidUnaligned	13360	89445.022 ns/op	1397.5065 MB/s
+BenchmarkStrncmpLongUnaligned	16750	71634.095 ns/op	1744.9791 MB/s
+BenchmarkStrncmpShortQsort	1333	900772.38 ns/op	138.7698 MB/s
+BenchmarkStrncmpMidQsort	5806	204608.53 ns/op	610.92273 MB/s
+os: FreeBSD
+arch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+
+BenchmarkStrncmpShortAligned	8713	137763.38 ns/op	907.35289 MB/s
+BenchmarkStrncmpMidAligned	13566	88421.376 ns/op	1413.6853 MB/s
+BenchmarkStrncmpLongAligned	16749	71639.859 ns/op	1744.8387 MB/s
+BenchmarkStrncmpShortUnaligned	8860	135695.58 ns/op	921.17957 MB/s
+BenchmarkStrncmpMidUnaligned	13467	88861.272 ns/op	1406.687 MB/s
+BenchmarkStrncmpLongUnaligned	16750	71633.994 ns/op	1744.9816 MB/s
+BenchmarkStrncmpShortQsort	1328	901859.33 ns/op	138.60255 MB/s
+BenchmarkStrncmpMidQsort	5834	204782.24 ns/op	610.40449 MB/s
