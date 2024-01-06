@@ -1,0 +1,259 @@
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2388	497730.76 ns/op	251.13979 MB/s
+BenchmarkStrcmpMidAligned	6550	182414.77 ns/op	685.25151 MB/s
+BenchmarkStrcmpLongAligned	19591	58101.787 ns/op	2151.3968 MB/s
+BenchmarkStrcmpShortUnaligned	1958	604969.42 ns/op	206.62201 MB/s
+BenchmarkStrcmpMidUnaligned	3030	382653.67 ns/op	326.66615 MB/s
+BenchmarkStrcmpLongUnaligned	3550	327089.41 ns/op	382.1585 MB/s
+BenchmarkStrcmpShortQsort	271	4344794.6 ns/op	28.77006 MB/s
+BenchmarkStrcmpMidQsort	1158	1032241 ns/op	121.09576 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2292	491046.1 ns/op	254.55858 MB/s
+BenchmarkStrcmpMidAligned	6375	180148.11 ns/op	693.87349 MB/s
+BenchmarkStrcmpLongAligned	17485	59901.399 ns/op	2086.7626 MB/s
+BenchmarkStrcmpShortUnaligned	1959	605792.16 ns/op	206.3414 MB/s
+BenchmarkStrcmpMidUnaligned	3028	384519.06 ns/op	325.08142 MB/s
+BenchmarkStrcmpLongUnaligned	3574	330711.03 ns/op	377.97348 MB/s
+BenchmarkStrcmpShortQsort	271	4387139.7 ns/op	28.492368 MB/s
+BenchmarkStrcmpMidQsort	1158	1032521.6 ns/op	121.06285 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2386	491899.63 ns/op	254.11688 MB/s
+BenchmarkStrcmpMidAligned	6541	180038.7 ns/op	694.29518 MB/s
+BenchmarkStrcmpLongAligned	18032	58426.096 ns/op	2139.4549 MB/s
+BenchmarkStrcmpShortUnaligned	1958	603616.3 ns/op	207.0852 MB/s
+BenchmarkStrcmpMidUnaligned	3028	388644.48 ns/op	321.63071 MB/s
+BenchmarkStrcmpLongUnaligned	3550	327960.3 ns/op	381.14369 MB/s
+BenchmarkStrcmpShortQsort	273	4373558.9 ns/op	28.580843 MB/s
+BenchmarkStrcmpMidQsort	1156	1033258.5 ns/op	120.9765 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2343	488861.06 ns/op	255.69637 MB/s
+BenchmarkStrcmpMidAligned	6360	185067.75 ns/op	675.42831 MB/s
+BenchmarkStrcmpLongAligned	20397	59723.053 ns/op	2092.9941 MB/s
+BenchmarkStrcmpShortUnaligned	1959	603940.24 ns/op	206.97412 MB/s
+BenchmarkStrcmpMidUnaligned	3094	386973.4 ns/op	323.01962 MB/s
+BenchmarkStrcmpLongUnaligned	3550	326131.75 ns/op	383.28068 MB/s
+BenchmarkStrcmpShortQsort	272	4346556.5 ns/op	28.758397 MB/s
+BenchmarkStrcmpMidQsort	1159	1027545.1 ns/op	121.64916 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2352	494001.67 ns/op	253.03558 MB/s
+BenchmarkStrcmpMidAligned	6370	181850.29 ns/op	687.37861 MB/s
+BenchmarkStrcmpLongAligned	20112	60615.051 ns/op	2062.1941 MB/s
+BenchmarkStrcmpShortUnaligned	1959	604275.96 ns/op	206.85913 MB/s
+BenchmarkStrcmpMidUnaligned	3027	388134.47 ns/op	322.05333 MB/s
+BenchmarkStrcmpLongUnaligned	3554	327899.92 ns/op	381.21388 MB/s
+BenchmarkStrcmpShortQsort	273	4349224.6 ns/op	28.740755 MB/s
+BenchmarkStrcmpMidQsort	1160	1030682.7 ns/op	121.27884 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2259	491850.14 ns/op	254.14245 MB/s
+BenchmarkStrcmpMidAligned	6370	180329.2 ns/op	693.1767 MB/s
+BenchmarkStrcmpLongAligned	20350	58315.288 ns/op	2143.5202 MB/s
+BenchmarkStrcmpShortUnaligned	1959	603186.82 ns/op	207.23265 MB/s
+BenchmarkStrcmpMidUnaligned	3028	389853.63 ns/op	320.63316 MB/s
+BenchmarkStrcmpLongUnaligned	3553	330988.14 ns/op	377.65704 MB/s
+BenchmarkStrcmpShortQsort	274	4348457.9 ns/op	28.745823 MB/s
+BenchmarkStrcmpMidQsort	1160	1031920.1 ns/op	121.13341 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2449	495025.86 ns/op	252.51206 MB/s
+BenchmarkStrcmpMidAligned	6369	180147.64 ns/op	693.87531 MB/s
+BenchmarkStrcmpLongAligned	17560	67351.488 ns/op	1855.9352 MB/s
+BenchmarkStrcmpShortUnaligned	1959	602591.52 ns/op	207.43737 MB/s
+BenchmarkStrcmpMidUnaligned	3034	386826.39 ns/op	323.14238 MB/s
+BenchmarkStrcmpLongUnaligned	3553	326538.43 ns/op	382.80334 MB/s
+BenchmarkStrcmpShortQsort	276	4341382.5 ns/op	28.792671 MB/s
+BenchmarkStrcmpMidQsort	1160	1033394.7 ns/op	120.96056 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2397	489753.51 ns/op	255.23043 MB/s
+BenchmarkStrcmpMidAligned	6360	181994.71 ns/op	686.83316 MB/s
+BenchmarkStrcmpLongAligned	19056	57820.233 ns/op	2161.873 MB/s
+BenchmarkStrcmpShortUnaligned	1958	607091.03 ns/op	205.89993 MB/s
+BenchmarkStrcmpMidUnaligned	3030	388401.9 ns/op	321.83159 MB/s
+BenchmarkStrcmpLongUnaligned	3555	325337.57 ns/op	384.21631 MB/s
+BenchmarkStrcmpShortQsort	276	4396027 ns/op	28.434766 MB/s
+BenchmarkStrcmpMidQsort	1162	1031750.8 ns/op	121.15329 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2235	492706.99 ns/op	253.70048 MB/s
+BenchmarkStrcmpMidAligned	6369	187525.2 ns/op	666.57709 MB/s
+BenchmarkStrcmpLongAligned	18634	58090.069 ns/op	2151.8308 MB/s
+BenchmarkStrcmpShortUnaligned	1959	612049.62 ns/op	204.23181 MB/s
+BenchmarkStrcmpMidUnaligned	3028	388828.06 ns/op	321.47885 MB/s
+BenchmarkStrcmpLongUnaligned	3553	333540.38 ns/op	374.76722 MB/s
+BenchmarkStrcmpShortQsort	272	4334836.9 ns/op	28.836148 MB/s
+BenchmarkStrcmpMidQsort	1158	1032067.1 ns/op	121.11616 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2380	490080.37 ns/op	255.06021 MB/s
+BenchmarkStrcmpMidAligned	6378	182905.17 ns/op	683.41427 MB/s
+BenchmarkStrcmpLongAligned	17923	63701.861 ns/op	1962.2661 MB/s
+BenchmarkStrcmpShortUnaligned	1959	602620.34 ns/op	207.42745 MB/s
+BenchmarkStrcmpMidUnaligned	3028	383743.4 ns/op	325.7385 MB/s
+BenchmarkStrcmpLongUnaligned	3554	329233.72 ns/op	379.66949 MB/s
+BenchmarkStrcmpShortQsort	274	4385315.8 ns/op	28.504219 MB/s
+BenchmarkStrcmpMidQsort	1155	1034265.1 ns/op	120.85876 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2454	492503.25 ns/op	253.80543 MB/s
+BenchmarkStrcmpMidAligned	6454	180656.73 ns/op	691.91996 MB/s
+BenchmarkStrcmpLongAligned	20504	60691.855 ns/op	2059.5844 MB/s
+BenchmarkStrcmpShortUnaligned	1941	603927.23 ns/op	206.97858 MB/s
+BenchmarkStrcmpMidUnaligned	3028	384843.83 ns/op	324.80707 MB/s
+BenchmarkStrcmpLongUnaligned	3554	324674.08 ns/op	385.00148 MB/s
+BenchmarkStrcmpShortQsort	270	4352971.3 ns/op	28.716017 MB/s
+BenchmarkStrcmpMidQsort	1160	1032809.9 ns/op	121.02905 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2322	490038.18 ns/op	255.08216 MB/s
+BenchmarkStrcmpMidAligned	6428	183488.85 ns/op	681.24031 MB/s
+BenchmarkStrcmpLongAligned	17826	57516.369 ns/op	2173.2943 MB/s
+BenchmarkStrcmpShortUnaligned	1959	611186.05 ns/op	204.52037 MB/s
+BenchmarkStrcmpMidUnaligned	3030	386550.59 ns/op	323.37294 MB/s
+BenchmarkStrcmpLongUnaligned	3553	326067.34 ns/op	383.3564 MB/s
+BenchmarkStrcmpShortQsort	272	4365059.8 ns/op	28.636492 MB/s
+BenchmarkStrcmpMidQsort	1159	1033424.1 ns/op	120.95712 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2401	490006.98 ns/op	255.09841 MB/s
+BenchmarkStrcmpMidAligned	6386	187379.51 ns/op	667.09534 MB/s
+BenchmarkStrcmpLongAligned	19492	57400.949 ns/op	2177.6644 MB/s
+BenchmarkStrcmpShortUnaligned	1959	608317.19 ns/op	205.48491 MB/s
+BenchmarkStrcmpMidUnaligned	3036	383220.89 ns/op	326.18263 MB/s
+BenchmarkStrcmpLongUnaligned	3616	327541.67 ns/op	381.63083 MB/s
+BenchmarkStrcmpShortQsort	273	4369923 ns/op	28.604623 MB/s
+BenchmarkStrcmpMidQsort	1161	1029629 ns/op	121.40295 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2419	489356.78 ns/op	255.43735 MB/s
+BenchmarkStrcmpMidAligned	6374	179955.72 ns/op	694.6153 MB/s
+BenchmarkStrcmpLongAligned	20756	57471.146 ns/op	2175.0045 MB/s
+BenchmarkStrcmpShortUnaligned	1959	609302.18 ns/op	205.15272 MB/s
+BenchmarkStrcmpMidUnaligned	3034	387005.58 ns/op	322.99276 MB/s
+BenchmarkStrcmpLongUnaligned	3596	326553.99 ns/op	382.78509 MB/s
+BenchmarkStrcmpShortQsort	272	4389371.1 ns/op	28.477884 MB/s
+BenchmarkStrcmpMidQsort	1156	1029877.6 ns/op	121.37365 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2390	491336 ns/op	254.40839 MB/s
+BenchmarkStrcmpMidAligned	6369	178424.79 ns/op	700.57531 MB/s
+BenchmarkStrcmpLongAligned	18132	58767.523 ns/op	2127.0252 MB/s
+BenchmarkStrcmpShortUnaligned	1959	605670.56 ns/op	206.38282 MB/s
+BenchmarkStrcmpMidUnaligned	3027	385819.87 ns/op	323.98539 MB/s
+BenchmarkStrcmpLongUnaligned	3549	325591.58 ns/op	383.91656 MB/s
+BenchmarkStrcmpShortQsort	271	4332911.1 ns/op	28.848965 MB/s
+BenchmarkStrcmpMidQsort	1161	1031616.9 ns/op	121.16901 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2331	490510.03 ns/op	254.83679 MB/s
+BenchmarkStrcmpMidAligned	6369	182280.96 ns/op	685.75456 MB/s
+BenchmarkStrcmpLongAligned	19311	59992.912 ns/op	2083.5795 MB/s
+BenchmarkStrcmpShortUnaligned	1959	605555.41 ns/op	206.42207 MB/s
+BenchmarkStrcmpMidUnaligned	3028	393650.79 ns/op	317.54033 MB/s
+BenchmarkStrcmpLongUnaligned	3555	327900.02 ns/op	381.21376 MB/s
+BenchmarkStrcmpShortQsort	271	4387173.5 ns/op	28.492149 MB/s
+BenchmarkStrcmpMidQsort	1153	1038856.7 ns/op	120.32459 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2380	492549.44 ns/op	253.78163 MB/s
+BenchmarkStrcmpMidAligned	6372	180904.42 ns/op	690.97261 MB/s
+BenchmarkStrcmpLongAligned	18330	59159.825 ns/op	2112.9204 MB/s
+BenchmarkStrcmpShortUnaligned	1951	603813.92 ns/op	207.01742 MB/s
+BenchmarkStrcmpMidUnaligned	3040	390716 ns/op	319.92547 MB/s
+BenchmarkStrcmpLongUnaligned	3553	336341.6 ns/op	371.64597 MB/s
+BenchmarkStrcmpShortQsort	267	4362331.3 ns/op	28.654403 MB/s
+BenchmarkStrcmpMidQsort	1156	1031784.2 ns/op	121.14937 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2263	493319.97 ns/op	253.38524 MB/s
+BenchmarkStrcmpMidAligned	6363	187649.59 ns/op	666.13522 MB/s
+BenchmarkStrcmpLongAligned	20212	58740.263 ns/op	2128.0123 MB/s
+BenchmarkStrcmpShortUnaligned	1958	603469.64 ns/op	207.13553 MB/s
+BenchmarkStrcmpMidUnaligned	3033	385573.98 ns/op	324.192 MB/s
+BenchmarkStrcmpLongUnaligned	3556	325216.68 ns/op	384.35913 MB/s
+BenchmarkStrcmpShortQsort	272	4369694.9 ns/op	28.606116 MB/s
+BenchmarkStrcmpMidQsort	1162	1029951.2 ns/op	121.36497 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2427	489769.61 ns/op	255.22204 MB/s
+BenchmarkStrcmpMidAligned	6367	179701.54 ns/op	695.59782 MB/s
+BenchmarkStrcmpLongAligned	17488	58365.471 ns/op	2141.6772 MB/s
+BenchmarkStrcmpShortUnaligned	1959	605189.44 ns/op	206.5469 MB/s
+BenchmarkStrcmpMidUnaligned	3028	394025.66 ns/op	317.23823 MB/s
+BenchmarkStrcmpLongUnaligned	3552	325303.13 ns/op	384.25699 MB/s
+BenchmarkStrcmpShortQsort	273	4364317 ns/op	28.641366 MB/s
+BenchmarkStrcmpMidQsort	1156	1032217.1 ns/op	121.09856 MB/s
+
+os: FreeBSD
+arch: amd64
+cpu: AMD E-450 APU with Radeon(tm) HD Graphics
+
+BenchmarkStrcmpShortAligned	2356	491968.35 ns/op	254.08138 MB/s
+BenchmarkStrcmpMidAligned	6375	179904.39 ns/op	694.8135 MB/s
+BenchmarkStrcmpLongAligned	17672	57643.867 ns/op	2168.4874 MB/s
+BenchmarkStrcmpShortUnaligned	1959	608785.03 ns/op	205.327 MB/s
+BenchmarkStrcmpMidUnaligned	3105	382829.53 ns/op	326.51609 MB/s
+BenchmarkStrcmpLongUnaligned	3554	327943.03 ns/op	381.16377 MB/s
+BenchmarkStrcmpShortQsort	273	4365994.4 ns/op	28.630362 MB/s
+BenchmarkStrcmpMidQsort	1160	1033781.6 ns/op	120.91529 MB/s
