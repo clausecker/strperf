@@ -1,6 +1,6 @@
 CFLAGS+=	-fno-builtin -g -Wall
 TESTS=		memchr memcmp memcpy memccpy memrchr stpcpy stpncpy strchrnul \
-		strcmp strcspn strncmp strlcpy strlen strrchr strspn
+		strcmp strcspn strncmp strlcpy strlen strnlen strrchr strspn
 
 all: ${TESTS}
 
